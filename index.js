@@ -19,6 +19,7 @@ function checkIdExists(req, res, next) {
     return res.status(400).json({ Erro: "ID Not found" });
   else next();
 }
+
 server.get("/projects", (req, res) => {
   return res.json(projects);
 });
