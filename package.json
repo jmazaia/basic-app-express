@@ -7,7 +7,7 @@
     "dev": "yarn nodemon index.js"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "nodemon": "^1.19.4"
   }
 }
